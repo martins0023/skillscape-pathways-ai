@@ -1,6 +1,6 @@
-
 import { Badge } from "@/components/ui/badge";
-import { CheckCircle, Circle, Star, Clock } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { CheckCircle, Circle, Star, Clock, ArrowRight } from "lucide-react";
 
 const PathwayVisualization = () => {
   const pathwaySteps = [
