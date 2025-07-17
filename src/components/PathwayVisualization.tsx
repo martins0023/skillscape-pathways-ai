@@ -71,7 +71,7 @@ const PathwayVisualization = () => {
   return (
     <div className="relative max-w-5xl mx-auto">
       {/* Connection Line */}
-      <div className="absolute top-8 left-8 right-8 h-0.5 bg-gradient-to-r from-green-500 via-primary to-accent hidden lg:block" />
+{/*       <div className="absolute top-8 left-8 right-8 h-0.5 bg-gradient-to-r from-green-500 via-primary to-accent hidden lg:block" /> */}
       
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-4">
         {pathwaySteps.map((step, index) => (
